@@ -1,0 +1,72 @@
+[debug] [2022-02-25T22:31:33.528Z] ----------------------------------------------------------------------
+[debug] [2022-02-25T22:31:33.531Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Samin\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-02-25T22:31:33.532Z] CLI Version:   10.2.1
+[debug] [2022-02-25T22:31:33.533Z] Platform:      win32
+[debug] [2022-02-25T22:31:33.533Z] Node Version:  v16.13.1
+[debug] [2022-02-25T22:31:33.534Z] Time:          Fri Feb 25 2022 14:31:33 GMT-0800 (Pacific Standard Time)
+[debug] [2022-02-25T22:31:33.535Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-02-25T22:31:33.652Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-02-25T22:31:33.653Z] > authorizing via signed-in user (saminisnoob@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  F:\firebase-chat-app-main
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-02-25T22:32:39.663Z] Using project from CLI flag: saminchat-20509
+[debug] [2022-02-25T22:32:39.670Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/saminchat-20509 [none]
+[debug] [2022-02-25T22:32:40.602Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/saminchat-20509 200
+[debug] [2022-02-25T22:32:40.603Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/saminchat-20509 {"projectId":"saminchat-20509","projectNumber":"547744637217","displayName":"Saminchat","name":"projects/saminchat-20509","resources":{"hostingSite":"saminchat-20509","realtimeDatabaseInstance":"saminchat-20509-default-rtdb","storageBucket":"saminchat-20509.appspot.com","locationId":"asia-south1"},"state":"ACTIVE"}
+[info] i  Using project saminchat-20509 (Saminchat) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[info] +  Wrote public/404.html 
+[debug] [2022-02-25T22:33:31.927Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2022-02-25T22:33:32.165Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2022-02-25T22:33:32.165Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"9.6.7","browserURL":"https://www.gstatic.com/firebasejs/9.6.7/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/9.6.7/firebase.tgz"},"live":{"version":"9.6","browserURL":"https://www.gstatic.com/firebasejs/live/9.6/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/9.6/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/9.6.7/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/9.6.7/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/9.6.7/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/9.6.7/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/9.6.7/firebase-auth/cordova.js","auth/react-native":"https://www.gstatic.com/firebasejs/9.6.7/firebase-auth/react-native.js","functions":"https://www.gstatic.com/firebasejs/9.6.7/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/9.6.7/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/9.6.7/firebase-firestore/lite.js","storage":"https://www.gstatic.com/firebasejs/9.6.7/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/9.6.7/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/9.6.7/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/9.6.7/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/9.6.7/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/9.6.7/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/9.6.7/firebase-firestore.memory.js"}}
+[info] i  Skipping write of public/index.html 
+[info] 
+[info] i  Detected a .git folder at F:\firebase-chat-app-main 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=746606383&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2022-02-25T22:33:49.448Z] >>> HTTP REQUEST POST https://github.com/login/oauth/access_token  
+ {"client_id":"89cf50f02ac6aaed3484","client_secret":"3330d14abc895d9a74d5f17cd7a00711fa2c5bf0","code":"683ed0a923b74193bcbc","redirect_uri":"http://localhost:9005","state":"746606383"}
+[debug] [2022-02-25T22:33:50.121Z] <<< HTTP RESPONSE 200 {"server":"GitHub.com","date":"Fri, 25 Feb 2022 22:33:51 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","vary":"X-PJAX, X-PJAX-Container, Accept-Encoding, Accept, X-Requested-With","permissions-policy":"interest-cohort=()","etag":"W/\"6c97345018b91364c50a6f7806afac07\"","cache-control":"max-age=0, private, must-revalidate","strict-transport-security":"max-age=31536000; includeSubdomains; preload","x-frame-options":"deny","x-content-type-options":"nosniff","x-xss-protection":"0","referrer-policy":"origin-when-cross-origin, strict-origin-when-cross-origin","expect-ct":"max-age=2592000, report-uri=\"https://api.github.com/_private/browser/errors\"","content-security-policy":"default-src 'none'; base-uri 'self'; block-all-mixed-content; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com objects-origin.githubusercontent.com www.githubstatus.com collector.githubapp.com collector.github.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events translator.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src render.githubusercontent.com viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com collector.githubapp.com collector.github.com github-cloud.s3.amazonaws.com secured-user-images.githubusercontent.com/ *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/","x-github-request-id":"05A2:295F:393F9:6E6C2:6219594E"}
+[debug] [2022-02-25T22:33:50.129Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2022-02-25T22:33:50.693Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2022-02-25T22:33:50.693Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"samin2005","id":90718087,"node_id":"MDQ6VXNlcjkwNzE4MDg3","avatar_url":"https://avatars.githubusercontent.com/u/90718087?v=4","gravatar_id":"","url":"https://api.github.com/users/samin2005","html_url":"https://github.com/samin2005","followers_url":"https://api.github.com/users/samin2005/followers","following_url":"https://api.github.com/users/samin2005/following{/other_user}","gists_url":"https://api.github.com/users/samin2005/gists{/gist_id}","starred_url":"https://api.github.com/users/samin2005/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/samin2005/subscriptions","organizations_url":"https://api.github.com/users/samin2005/orgs","repos_url":"https://api.github.com/users/samin2005/repos","events_url":"https://api.github.com/users/samin2005/events{/privacy}","received_events_url":"https://api.github.com/users/samin2005/received_events","type":"User","site_admin":false,"name":null,"company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"twitter_username":null,"public_repos":11,"public_gists":0,"followers":0,"following":1,"created_at":"2021-09-14T17:39:51Z","updated_at":"2021-12-18T00:06:19Z","private_gists":0,"total_private_repos":1,"owned_private_repos":1,"disk_usage":26822,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] +  Success! Logged into GitHub as samin2005 
+[info] 
+[debug] [2022-02-25T22:34:47.437Z] >>> [apiv2][query] GET https://api.github.com/repos/y/actions/secrets/public-key type=owner
+[debug] [2022-02-25T22:34:47.880Z] <<< [apiv2][status] GET https://api.github.com/repos/y/actions/secrets/public-key 404
+[debug] [2022-02-25T22:34:47.880Z] <<< [apiv2][body] GET https://api.github.com/repos/y/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-02-25T22:34:53.563Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2022-02-25T22:34:54.107Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2022-02-25T22:34:54.107Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
